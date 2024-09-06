@@ -86,7 +86,7 @@ dentro de kurtosis va la vraiable y el type 1 o 2
 
 `skewness()`
 
-skewness(variable-fila-nombre de fil)
+dentro de skewness va la variable - filtro de fila$ - nombre de fila
 ### 11. **Tabla de frecuencias**
 - **Frecuencias**:
 
