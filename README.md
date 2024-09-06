@@ -89,16 +89,12 @@ kurtosis(  x ,type=1,2)
 skewness(variable-fila-nombre de fil)
 ### 11. **Tabla de frecuencias**
 - **Frecuencias**:
- 
-  Tbl_frecuenci_sueldo = fdt(sueldofiltro$p66, start = min_sueldo, end = max_sueldo, h = Amplitud_sueldo)
 
+calcular tabla de frecuencia `fdt()`
 tablas de frecuencia fdt(var,star = min,end=max,h=amplitud)
 ### 12. **Gráficos basados en la tabla de frecuencias**
-```r
 plot(Tbl_frecuenci_sueldo, type = "fh")
-plot(Tbl_frecuenci_sueldo, type = "fp")
-plot(Tbl_frecuenci_sueldo, type = "rfh")
-``` 
+
 - `plot()`: Crea gráficos en función del tipo seleccionado:
   - `fh`: Histograma de frecuencias.
   - `fp`: Gráfico de puntos.
