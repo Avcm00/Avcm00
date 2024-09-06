@@ -78,20 +78,20 @@ max() y min()
 
 ### 10. **Medidas de forma (curtosis y asimetría)**
 - **Curtosis**:
-  ```r
-  curtosis_sueldo = kurtosis(sueldofiltro$p66, type = 2)
-  ```
+
+  todo guardar en una variable aparte
+
 kurtosis(  x ,type=1,2)
 - **Coeficiente de asimetría**:
-  ```r
-  coeficiente_asimetria_sueldo = skewness(sueldofiltro$p66)
-  ```
-skewness()
+
+\
+
+skewness(variable-fila-nombre de fil)
 ### 11. **Tabla de frecuencias**
 - **Frecuencias**:
-  ```r
+ 
   Tbl_frecuenci_sueldo = fdt(sueldofiltro$p66, start = min_sueldo, end = max_sueldo, h = Amplitud_sueldo)
-  ```
+
 tablas de frecuencia fdt(var,star = min,end=max,h=amplitud)
 ### 12. **Gráficos basados en la tabla de frecuencias**
 ```r
