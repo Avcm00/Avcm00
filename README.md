@@ -81,25 +81,25 @@ max() y min()
 
   todo guardar en una variable apartec
   calcular `kurtosis()`
-kurtosis(  x ,type=1,2)
+dentro de kurtosis va la vraiable y el type 1 o 2
 - **Coeficiente de asimetría**:
 
-\`skewness()`
+`skewness()`
 
 skewness(variable-fila-nombre de fil)
 ### 11. **Tabla de frecuencias**
 - **Frecuencias**:
 
 calcular tabla de frecuencia `fdt()`
-tablas de frecuencia fdt(var,star = min,end=max,h=amplitud)
+dentro de fdt va la variable luego la variable de inicio start la variable de fin end y la amplitud h
+
 ### 12. **Gráficos basados en la tabla de frecuencias**
-plot(Tbl_frecuenci_sueldo, type = "fh")
 
 - `plot()`: Crea gráficos en función del tipo seleccionado:
   - `fh`: Histograma de frecuencias.
   - `fp`: Gráfico de puntos.
   - `rfh`: Frecuencia relativa.
-
+dentro de plot va la variable y el tipo de frecuencia
 tamanio de la muestra
 length(variable)
 
