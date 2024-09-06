@@ -17,18 +17,18 @@ library(e1071)
 - `e1071`: Paquete que ofrece funciones estadísticas adicionales como la curtosis y la asimetría.
 
 ### 2. **Copia de la base de datos**
-variablecopia <- variable
+
 view(variable)
 - `enemdu_persona_2024_07`: Es la base de datos original. Aquí, se crea una copia en `Cop_Software`.
 - `View()`: Abre la base de datos en una ventana para visualizarla en una tabla.
 
 ### 3. **Resumen de hombres y mujeres**
-nvraie<-table(variable)
+
 - `table()`: Crea una tabla de frecuencias para los valores de la variable `p02`, que probablemente represente el género.
 - `Res_Genero`: Almacena la tabla de conteo de hombres y mujeres.
 
 ### 4. **Cálculo de porcentaje**
-varieable()
+
 - `sum()`: Suma los valores de la tabla `Res_Genero`.
 - `round()`: Redondea los resultados del cálculo de porcentajes a dos decimales.
 
@@ -79,12 +79,12 @@ max() y min()
 ### 10. **Medidas de forma (curtosis y asimetría)**
 - **Curtosis**:
 
-  todo guardar en una variable aparte
-
+  todo guardar en una variable apartec
+  calcular `kurtosis()`
 kurtosis(  x ,type=1,2)
 - **Coeficiente de asimetría**:
 
-\
+\`skewness()`
 
 skewness(variable-fila-nombre de fil)
 ### 11. **Tabla de frecuencias**
